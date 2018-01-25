@@ -96,7 +96,19 @@ h1 {
 }
 
 h2 {
+    font-size: 28px;
+}
 
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.icon {
+    float: left;
+    margin: 8px;
+    width: 50px;
+    height: 50px;
 }
 
 /* begin index.html only*/
@@ -106,6 +118,7 @@ h2 {
     width: 650px;
     color: #777777;
     background: #ffffff;
+    padding: 16px;
 }
 
 .profile-pic {
@@ -120,13 +133,22 @@ h2 {
     width: 270px;
     color: #777777;
     background: #ffffff;
+    padding: 16px;
 }
 /*end index.html only */
 
 footer {
     clear: both;
-    margin: 24px;
+    margin: 0;
     text-align: center;
+    background: #666666;
+    font-size: small;
+    line-height: 48px;
+    padding: 16px 0;
+    color: #cccccc;
+    border-top: #4aaaa5;
+    border-style: solid;
+    border-width: 5px 0 0;
 }
 
 /*begin portfolio.html only */
@@ -137,6 +159,7 @@ footer {
     color: #777777;
     background: #ffffff;
     position: relative;
+    padding: 16px;
 }
 /* end prtfolio.html only */
 
@@ -148,4 +171,5 @@ footer {
     color: #777777;
     background: #ffffff;
     position: relative;
+    padding: 16px;
 }
