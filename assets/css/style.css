@@ -1,0 +1,151 @@
+/* html style */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/vintage-concrete.png);
+}
+
+header {
+    padding-bottom: 32px;
+    line-height: 48px;
+    clear: both;
+    color: #ffffff;
+    background: #ffffff;
+}
+
+/* unclicked link */
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+/* clicked link */
+a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+/* header font family */
+h1, h2, h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2, h3 {
+    color: #4aaaa5;
+}
+
+/* wrapper so name and nav links fit within content area */
+.content-area {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 960px;
+    height: 48px;
+    margin: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    float: left;
+    background: #4aaaa5;
+    font-size: 32px;
+    padding: 24px;
+    line-height: 32px;
+}
+
+/* nav class */
+.page-links {
+    margin: auto;
+    float: right;
+    width: 270;
+    line-height: 24px;
+    font-size: 18px;
+    padding: 26px 0;
+    color: #777777;
+}
+
+/* individual links for borders */
+.link-left {
+    padding: 0 16px;
+}
+
+.link-middle {
+    padding: 0 16px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0 1px; 
+}
+
+.link-right {
+    padding: 0 16px;
+
+}
+
+/* main content area */
+.container {
+    width: 960px;
+    height: 430px;
+    margin: 24px auto;  
+
+}
+
+h2 {
+
+}
+
+/* begin index.html only*/
+/* about me paragraphs and profile pic */ 
+.about-me {
+    float: left;
+    width: 650px;
+    color: #777777;
+    background: #ffffff;
+}
+
+.profile-pic {
+    float: left;
+    height: 160px;
+    width: 160px;
+}
+
+/* links to my social pages */
+.contact {
+    float: right;
+    width: 270px;
+    color: #777777;
+    background: #ffffff;
+}
+/*end index.html only */
+
+footer {
+    clear: both;
+    margin: 24px;
+    text-align: center;
+}
+
+/*begin portfolio.html only */
+/* portfolio images */
+.portfolio {
+    float: left;
+    width: 650px;
+    color: #777777;
+    background: #ffffff;
+    position: relative;
+}
+/* end prtfolio.html only */
+
+/*begin contact.html only */
+/* form */
+.contact-form {
+    float: left;
+    width: 650px;
+    color: #777777;
+    background: #ffffff;
+    position: relative;
+}
